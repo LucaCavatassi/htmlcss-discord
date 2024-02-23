@@ -5,19 +5,48 @@
     box-sizing: border-box;
 }
 
-.contained{
-    width: 60%;
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
 }
 
 /* COMMON */
 .dashed{
     border: 2px dashed black;
 }
+.contained{
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+
+.buttonlook{
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.whitetext{
+    color: white;
+}
+.bgrey{
+    background-color: lightgray;
+}
+.bgwhite{
+    background-color: white;
+}
 
 /* HEADER */
 header{
     height: 70px;
-    background-color: aquamarine;
+    background-color: rgb(65 94 234);
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -26,12 +55,9 @@ header{
 
 .navbar{
     display: flex;
-    background-color: orange;
+    align-items: center;
 }
 
-.navbar > div {
-    padding: 5px;
-}
 
 .logo , .login{
     width: 25%;
@@ -41,11 +67,18 @@ header{
 .header-links{
     width: 50%;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .login{
     text-align: right;
 }
+
+.login > a {
+    font-size: 1.1rem;
+}
+
 
 /* MAIN */
 
@@ -74,9 +107,6 @@ header{
     align-items: center;
 }
 
-.bgrey{
-    background-color: lightgray;
-}
 
 .artwork{
     background-color: cornflowerblue;
