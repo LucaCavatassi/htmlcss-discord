@@ -1,0 +1,173 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contained{
+    width: 60%;
+}
+
+/* COMMON */
+.dashed{
+    border: 2px dashed black;
+}
+
+/* HEADER */
+header{
+    height: 70px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+     
+}
+
+.navbar{
+    display: flex;
+    background-color: orange;
+}
+
+.navbar > div {
+    padding: 5px;
+}
+
+.logo , .login{
+    width: 25%;
+    
+}
+
+.header-links{
+    width: 50%;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
+
+/* MAIN */
+
+/* LANDING */
+
+.landing{
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-menu{
+    height: 70%;
+    width: 50%;
+    background-color: hotpink;
+}
+
+/* PAGES */
+
+.page{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgrey{
+    background-color: lightgray;
+}
+
+.artwork{
+    background-color: cornflowerblue;
+    height: 70%;
+    width: 60%;
+}
+
+.infotext{
+    height: 70%;
+    width: 40%;
+    background-color: lightpink;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/* COPY */
+
+.bigpage{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy{
+    height: 85%;
+    background-color: green;
+}
+
+/* FOOTER */
+.footer{
+    background-color: darkslategray;
+    height: 550px;
+}
+
+/* FOOTER_1 */
+.footer_1{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+
+.about{
+    background-color: lightseagreen;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.social{
+    width: 30%;
+    height: 100%;
+    background-color: deeppink;
+}
+
+.faq{
+    width: 70%;
+    display: flex;
+}
+
+.faqlinks{
+    width: calc(100% / 4);
+}
+.faq .faqlinks{
+    border: 1px dashed white;
+}
+
+/* FOOTER_2 */
+
+.footer_2{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 2px solid white;
+}
+.signup{
+    background-color: aquamarine;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup > div{
+    background-color: lightpink;
+    width: 10%;
+    text-align: center;
+    padding: 5px;
+}
+
