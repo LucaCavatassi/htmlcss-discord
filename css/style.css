@@ -19,6 +19,7 @@ img{
 }
 .contained{
     width: 80%;
+    margin: 0 auto;
 }
 
 a{
@@ -43,38 +44,41 @@ a:hover{
     background-color: white;
 }
 
-/* HEADER */
-header{
-    height: 70px;
-    background-color: rgb(65 94 234);
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-     
-}
-
-.navbar{
+.y-align{
     display: flex;
     align-items: center;
 }
+.x-align{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+/* HEADER */
+header{
+    height: 70px;
+    background-color: rgb(65 94 234);    
+}
+.navbar{
+    height: 100%;
+}
 .logo , .login{
     width: 25%;
     
 }
-
 .header-links{
     width: 50%;
-    text-align: center;
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
 }
-
 .login{
     text-align: right;
 }
-
 .login > a {
     font-size: 1.1rem;
 }
