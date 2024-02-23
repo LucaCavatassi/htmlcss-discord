@@ -147,7 +147,7 @@ header{
 
 /* PAGES */
 .page{
-    padding: 20px;
+    padding: 50px 0;
 }
 .infotext{
     width: 40%;
@@ -229,4 +229,20 @@ header{
 }
 .signupbutton{
     font-size: 0.7rem;
+}
+
+/* WAVE */
+
+.wave img{
+    
+    filter: invert(98%) sepia(0%) saturate(95%) hue-rotate(176deg) brightness(119%) contrast(93%);
+    width: 100%;
+    margin: -5px;
+}
+
+.mirror{
+    transform: scaleY(-1);
+}
+.mirrorhor{
+    transform: scaleX(-1);
 }
