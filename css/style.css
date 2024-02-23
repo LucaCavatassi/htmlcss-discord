@@ -24,6 +24,7 @@ img{
 
 a{
     text-decoration: none;
+    color: black;
 }
 a:hover{
     cursor: pointer;
@@ -31,7 +32,7 @@ a:hover{
 
 .buttonlook{
     border-radius: 25px;
-    padding: 10px;
+    padding: 12px;
 }
 
 .whitetext{
@@ -42,6 +43,9 @@ a:hover{
 }
 .bgwhite{
     background-color: white;
+}
+.bgblack{
+    background-color: black;
 }
 
 .y-align{
@@ -83,27 +87,36 @@ header{
     font-size: 1.1rem;
 }
 
-
 /* MAIN */
 
 /* LANDING */
 
 .landing{
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
     height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .landing-menu{
-    height: 70%;
     width: 50%;
-    background-color: hotpink;
+}
+.landing-menu h1 {
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.landing-menu p {
+    font-size: 0.9rem;
 }
 
+.download-landing{
+    margin: 30px;
+}
+.download-landing a{
+    margin:  0 10px;
+}
 /* PAGES */
-
 .page{
     height: 400px;
     display: flex;
