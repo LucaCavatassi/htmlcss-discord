@@ -94,7 +94,7 @@ li{
 /* HEADER */
 header{
     height: 70px;
-    background-color: rgb(65 94 234);    
+    background-color: rgb(38 94 233);    
 }
 .navbar{
     height: 100%;
@@ -130,7 +130,7 @@ header{
 
 .landing-menu{
     width: 50%;
-    padding: 100px;
+    padding: 50px;
 }
 .landing-menu h1 {
     padding: 20px;
