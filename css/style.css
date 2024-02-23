@@ -48,6 +48,9 @@ a:hover{
 .bgblack{
     background-color: black;
 }
+.bgblue{
+    background-color: rgb(114 138 218);
+}
 
 .y-align{
     display: flex;
@@ -64,14 +67,15 @@ a:hover{
 }
 
 h1{
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     font-weight: 500;
-    margin: 20px 0 0;
+    margin-top: 20px;
 }
 
 p{
     font-weight: 400;
     line-height: 20px;
+    margin-top: 20px;
 }
 /* HEADER */
 header{
@@ -108,11 +112,11 @@ header{
     background-repeat: no-repeat;
     min-height: 100%;
     text-align: center;
-    height: 300px;
 }
 
 .landing-menu{
     width: 50%;
+    padding: 50px;
 }
 .landing-menu h1 {
     padding: 20px;
@@ -122,7 +126,7 @@ header{
 }
 
 .download-landing{
-    margin: 30px;
+    margin: 30px 0;
 }
 .download-landing a{
     margin:  0 10px;
@@ -130,46 +134,32 @@ header{
 
 /* PAGES */
 .page{
-    height: 400px;
+    padding: 20px;
 }
-
-.infotext p{
-    margin-top: 20px;
-}
-
-.artwork{
-    /* debug */
-    /* height: 70%; */
-
-    width: 60%;
-}
-
 .infotext{
-    /* debug */
-    /* height: 70%; */
-
     width: 40%;
-
 }
-
 .reverse{
     flex-direction: row-reverse;
 }
 
 /* COPY */
-
-.bigpage{
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .copy{
-    height: 85%;
-    background-color: green;
+    text-align: center;
 }
 
+.subcopy h2{
+    padding: 40px;
+    display: inline-block;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.download-button{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
 /* FOOTER */
 .footer{
     background-color: darkslategray;
